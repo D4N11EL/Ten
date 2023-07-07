@@ -1,0 +1,9 @@
+com\example\tendencias\controller\PersonaController.class
+com\repaso\repaso\model\Persona.class
+com\repaso\repaso\model\Telefonia.class
+com\example\tendencias\service\GenericService.class
+com\example\tendencias\service\GenericServiceImpl.class
+com\repaso\repaso\model\Contactos.class
+com\example\tendencias\PersonaRepository.class
+com\example\tendencias\service\PersonaServiceImpl.class
+com\example\tendencias\TendenciasApplication.class
