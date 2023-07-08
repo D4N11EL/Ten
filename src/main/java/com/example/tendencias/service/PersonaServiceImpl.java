@@ -4,7 +4,6 @@
  */
 package com.example.tendencias.service;
 
-
 import com.example.tendencias.PersonaRepository;
 import com.example.tendencias.service.GenericService;
 import com.example.tendencias.service.GenericServiceImpl;
@@ -24,8 +23,10 @@ public class PersonaServiceImpl extends GenericServiceImpl<Persona, Long> implem
     @Autowired
     PersonaRepository personarepository;
 
+    @Override
     public CrudRepository<Persona, Long> getDao() {
-        return (CrudRepository<Persona, Long>) personarepository;
+        return personarepository;
+
     }
 
 }

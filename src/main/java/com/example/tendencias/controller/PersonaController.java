@@ -26,10 +26,9 @@ import org.springframework.web.bind.annotation.RestController;
  *
  * @author Danie
  */
+@CrossOrigin(origins = {"http://localhost:8080"})
 @RestController
-@CrossOrigin(origins = "*", methods = {RequestMethod.POST, RequestMethod.GET, RequestMethod.PUT,
-    RequestMethod.DELETE})
-@RequestMapping("/api/persona")
+@RequestMapping("/api")
 public class PersonaController {
 
     @Autowired

@@ -7,11 +7,13 @@ package com.example.tendencias;
 
 import com.repaso.repaso.model.Persona;
 import org.springframework.data.mongodb.repository.MongoRepository;
+import org.springframework.stereotype.Repository;
 
 /**
  *
  * @author Danie
  */
+@Repository
 public interface PersonaRepository extends MongoRepository<Persona, Long>{
     
    
